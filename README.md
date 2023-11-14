@@ -1,4 +1,4 @@
-## Caseado em
+## Baseado em
 https://www.linkedin.com/pulse/priming-jose-r-f-junior/?originalSubdomain=pt
 
 ## Priming Backend
