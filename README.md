@@ -1,3 +1,6 @@
+## Caseado em
+https://www.linkedin.com/pulse/priming-jose-r-f-junior/?originalSubdomain=pt
+
 ## Priming Backend
 Este é um projeto que usa Java, Spring Boot, Neo4j, RDF e JSON para criar uma API RESTful que permite o armazenamento e a consulta de dados semânticos. O objetivo é facilitar a integração de diferentes fontes de dados e a extração de conhecimento relevante.
 
