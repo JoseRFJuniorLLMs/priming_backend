@@ -10,7 +10,7 @@ Este projeto também faz parte de um curso de inglês que eu estou fazendo, onde
 A arquitetura do projeto é baseada no diagrama a seguir:
 
 ![Diagrama de arquitetura]
-
+![v1.png](img%2Fv1.png)
 ## O projeto consiste em três camadas principais:
 
 A camada de apresentação, que é responsável por fornecer uma interface gráfica para o usuário interagir com a API. Esta camada usa React para criar componentes reutilizáveis e dinâmicos.
@@ -18,7 +18,7 @@ A camada de negócio, que é responsável por implementar a lógica de negócio 
 A camada de persistência, que é responsável por armazenar e recuperar os dados semânticos. Esta camada usa Neo4j como banco de dados orientado a grafos e RDF como formato de representação de dados.
 Funcionalidades
 ## A API oferece as seguintes funcionalidades:
-
+![v2.png](img%2Fv1.png)
 Cadastrar dados semânticos em formato RDF, usando o método POST na rota /api/v1/data.
 Consultar dados semânticos usando consultas SPARQL, usando o método GET na rota /api/v1/query.
 Visualizar os dados semânticos em formato gráfico, usando o método GET na rota /api/v1/graph.
@@ -34,4 +34,4 @@ Compile o projeto usando o comando mvn clean install.
 Execute o projeto usando o comando java -jar target/priming_backend-0.0.1-SNAPSHOT.jar.
 Acesse a interface gráfica no navegador usando o endereço http://localhost:8080.
 
-![v1.png](img%2Fv1.png)
+
