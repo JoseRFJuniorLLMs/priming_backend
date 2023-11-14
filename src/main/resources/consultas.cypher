@@ -84,6 +84,33 @@ ON CREATE SET a.Target = Target
 MERGE (a)-[r:Rel_Priming]->(b:priming {Target: Target})
 RETURN a, r, b
 
+// Criar alguns departamentos
+CREATE (d1:Department {name: 'Computer Science'})
+CREATE (d2:Department {name: 'Mathematics'})
+CREATE (d3:Department {name: 'Physics'})
+
+// Criar alguns estudantes e relacioná-los com departamentos
+CREATE (s1:Student {name: 'John Doe', birthYear: 1995, country: 'USA'})
+CREATE (s2:Student {name: 'Jane Smith', birthYear: 1998, country: 'Canada'})
+CREATE (s3:Student {name: 'Bob Johnson', birthYear: 1997, country: 'UK'})
+
+CREATE (s1)-[:BELONGS_TO]->(d1)
+CREATE (s2)-[:BELONGS_TO]->(d2)
+CREATE (s3)-[:BELONGS_TO]->(d3)
+
+// Criar algumas relações de aprendizado
+CREATE (s1)-[:IS_LEARNING]->(l1:IsLearningRelation {subject: 'Programming'})
+CREATE (s1)-[:IS_LEARNING]->(l2:IsLearningRelation {subject: 'Database'})
+
+CREATE (s2)-[:IS_LEARNING]->(l3:IsLearningRelation {subject: 'Algebra'})
+CREATE (s2)-[:IS_LEARNING]->(l4:IsLearningRelation {subject: 'Statistics'})
+
+CREATE (s3)-[:IS_LEARNING]->(l5:IsLearningRelation {subject: 'Quantum Mechanics'})
+CREATE (s3)-[:IS_LEARNING]->(l6:IsLearningRelation {subject: 'Thermodynamics'})
+
+MATCH (student:Student)-[:BELONGS_TO]->(department:Department)
+OPTIONAL MATCH (student)-[:IS_LEARNING]->(learningRelation:IsLearningRelation)
+RETURN student, department, COLLECT(learningRelation) AS learningRelations;
 
 Time taken
 00:00:22
