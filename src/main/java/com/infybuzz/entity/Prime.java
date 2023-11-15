@@ -1,9 +1,6 @@
 package com.infybuzz.entity;
 
-import org.springframework.data.neo4j.core.schema.GeneratedValue;
-import org.springframework.data.neo4j.core.schema.Id;
-import org.springframework.data.neo4j.core.schema.Node;
-import org.springframework.data.neo4j.core.schema.Relationship;
+import org.springframework.data.neo4j.core.schema.*;
 import org.springframework.data.neo4j.core.schema.Relationship.Direction;
 
 @Node(labels = {"Prime"})
@@ -12,9 +9,11 @@ public class Prime {
     @Id
     @GeneratedValue
     private Long id;
-
+    @Property
     private Long pk_student;
+    @Property
     private String prime;
+    @Property
     private String target;
 
     @Relationship(type = "HAS_PRIME", direction = Direction.INCOMING)
@@ -59,4 +58,6 @@ public class Prime {
     public void setStudent(Student student) {
         this.student = student;
     }
+
+    private String list;
 }
