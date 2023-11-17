@@ -97,6 +97,10 @@ Este é um projeto que usa Java, Spring Boot, Neo4j, RDF e JSON para criar uma A
 
 Este projeto também faz parte de um curso de inglês que eu estou fazendo, onde eu uso técnicas de aprendizagem acelerada como pomodoro, palácio de memória e priming para melhorar o meu vocabulário e a minha pronúncia.
 
+![Pomodoro.png](img%2Fpomo.png)
+
+![WimHoff.png](img%2Fwimhoff.png)
+
 ## Arquitetura
 A arquitetura do projeto é baseada no diagrama a seguir:
 
