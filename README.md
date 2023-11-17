@@ -23,7 +23,8 @@ Um terceiro estudo mostrou que as pessoas que foram expostas a um som de dinheir
 
 Um estudo mostrou que as pessoas que foram expostas à cor vermelha antes de fazer uma tarefa eram mais propensas a serem agressivas.
 Cor vermelha.
-![vermelho.png](img%2Fvermelhor.png)
+
+![vermelho.png](img%2Fvermelho.png)
 
 Outro estudo mostrou que as pessoas que foram expostas à palavra "forte" antes de fazer uma tarefa eram mais propensas a realizar a tarefa com mais força.
 Palavra forte
