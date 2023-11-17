@@ -1,23 +1,26 @@
 package com.infybuzz.entity;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.neo4j.core.schema.*;
 import org.springframework.data.neo4j.core.schema.Relationship.Direction;
 
-@Node(labels = {"Prime"})
+//@Node(labels = {"Prime"})
+@Node("priming")
+@EntityScan("com.infybuzz.entity")
 public class Prime {
 
     @Id
     @GeneratedValue
     private Long id;
-    @Property
-    private Long pk_student;
+    //@Property
+    //private Long pk_student;
     @Property
     private String prime;
     @Property
     private String target;
 
-    @Relationship(type = "HAS_PRIME", direction = Direction.INCOMING)
-    private Student student;
+    //@Relationship(type = "HAS_PRIME", direction = Direction.INCOMING)
+    //private Student student;
 
     public Long getId() {
         return id;
@@ -27,13 +30,13 @@ public class Prime {
         this.id = id;
     }
 
-    public Long getPk_student() {
+    /*public Long getPk_student() {
         return pk_student;
     }
 
     public void setPk_student(Long pk_student) {
         this.pk_student = pk_student;
-    }
+    }*/
 
     public String getPrime() {
         return prime;
@@ -51,13 +54,13 @@ public class Prime {
         this.target = target;
     }
 
-    public Student getStudent() {
+    /*public Student getStudent() {
         return student;
     }
 
     public void setStudent(Student student) {
         this.student = student;
-    }
+    }*/
 
     private String list;
 }
