@@ -22,23 +22,15 @@ Outro estudo mostrou que as pessoas que foram expostas a um rosto feliz antes de
 Um terceiro estudo mostrou que as pessoas que foram expostas a um som de dinheiro antes de fazer uma tarefa de negociação eram mais propensas a fazer ofertas mais competitivas.
 
 Um estudo mostrou que as pessoas que foram expostas à cor vermelha antes de fazer uma tarefa eram mais propensas a serem agressivas.
-Cor vermelhaOpens in a new window
-www.magazineluiza.com.br
-Cor vermelha
+Cor vermelha.
 
 Outro estudo mostrou que as pessoas que foram expostas à palavra "forte" antes de fazer uma tarefa eram mais propensas a realizar a tarefa com mais força.
-Palavra forteOpens in a new window
-www.dicio.com.br
 Palavra forte
 
 Um terceiro estudo mostrou que as pessoas que foram expostas à imagem de um rosto sorridente antes de fazer uma tarefa eram mais propensas a serem simpáticas com outras pessoas.
-Rosto sorridenteOpens in a new window
-emojiterra.com
 Rosto sorridente
 
 Um quarto estudo mostrou que as pessoas que foram expostas à palavra "feliz" antes de fazer uma tarefa eram mais propensas a se lembrar de eventos felizes de suas vidas.
-Palavra felizOpens in a new window
-www.loucasporcaixas.com.br
 Palavra feliz
 
 Esses exemplos mostram que o priming pode ter um impacto significativo no comportamento humano, mesmo quando as pessoas não estão cientes da conexão entre o estímulo primário e o estímulo subsequente.
@@ -46,8 +38,6 @@ Esses exemplos mostram que o priming pode ter um impacto significativo no compor
 Aqui estão alguns exemplos de como o priming é usado na prática:
 
 Na publicidade, o priming é usado para influenciar as decisões de compra das pessoas. Por exemplo, uma empresa pode exibir imagens de pessoas felizes em suas propagandas para fazer com que os consumidores se sintam mais felizes e propensos a comprar seus produtos.
-Imagem de pessoas felizesOpens in a new window
-www.agendor.com.br
 Imagem de pessoas felizes
 
 Na educação, o priming é usado para melhorar o aprendizado. Por exemplo, um professor pode apresentar aos alunos uma palavra ou frase relacionada ao tópico que está sendo estudado para ajudá-los a lembrar do material.
@@ -59,17 +49,14 @@ CasaOpens in a new window
 it.freepik.com
 Casa
 A técnica de imagem mental: Crie uma imagem mental da palavra que você está tentando aprender. Por exemplo, se você está tentando aprender a palavra "cachorro" em português, você pode imaginar um cachorro.
-CachorroOpens in a new window
-www.petz.com.br
 Cachorro
+
 A técnica de associação fonética: Associe a palavra que você está tentando aprender a uma palavra que soa semelhante em seu idioma nativo. Por exemplo, se você está tentando aprender a palavra "carro" em espanhol, você pode associar a palavra a "carro" em português.
-CarroOpens in a new window
-www.automaxfiat.com.br
 Carro
+
 A técnica de contexto: Tente aprender a palavra em um contexto. Por exemplo, se você está tentando aprender a palavra "beber" em espanhol, você pode aprender a palavra na frase "Quiero beber agua" (Eu quero beber água).
-Frase Quiero beber aguaOpens in a new window
-www.fundacionaquae.org
 Frase Quiero beber agua
+
 A técnica de repetição: Repetir a palavra que você está tentando aprender regularmente ajudará você a memorizá-la. Você pode repetir a palavra em voz alta, escrevê-la ou usá-la em frases.
 
 Aqui está uma explicação mais detalhada de como cada técnica funciona:
