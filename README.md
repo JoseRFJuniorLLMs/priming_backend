@@ -100,6 +100,9 @@ Este projeto também faz parte de um curso de inglês que eu estou fazendo, onde
 
 ![WimHoff.png](img%2Fwimhoff.png)
 
+[![Wim Hoff](https://img.youtube.com/vi/UJBknAsxfrA/0.jpg)](https://www.youtube.com/watch?v=UJBknAsxfrA)
+
+
 ## Arquitetura
 A arquitetura do projeto é baseada no diagrama a seguir:
 
