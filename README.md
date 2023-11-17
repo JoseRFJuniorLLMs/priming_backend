@@ -34,8 +34,13 @@ Palavra forte
 Um terceiro estudo mostrou que as pessoas que foram expostas à imagem de um rosto sorridente antes de fazer uma tarefa eram mais propensas a serem simpáticas com outras pessoas.
 Rosto sorridente
 
+![sor.png](img%2Fsor.png)
+
+
 Um quarto estudo mostrou que as pessoas que foram expostas à palavra "feliz" antes de fazer uma tarefa eram mais propensas a se lembrar de eventos felizes de suas vidas.
 Palavra feliz
+
+![feliz.png](img%2Ffeliz.png)
 
 Esses exemplos mostram que o priming pode ter um impacto significativo no comportamento humano, mesmo quando as pessoas não estão cientes da conexão entre o estímulo primário e o estímulo subsequente.
 
