@@ -21,6 +21,38 @@ Um estudo mostrou que as pessoas que foram expostas à palavra "velho" antes de 
 Outro estudo mostrou que as pessoas que foram expostas a um rosto feliz antes de fazer uma tarefa de criatividade eram mais propensas a gerar ideias originais.
 Um terceiro estudo mostrou que as pessoas que foram expostas a um som de dinheiro antes de fazer uma tarefa de negociação eram mais propensas a fazer ofertas mais competitivas.
 
+Um estudo mostrou que as pessoas que foram expostas à cor vermelha antes de fazer uma tarefa eram mais propensas a serem agressivas.
+Cor vermelhaOpens in a new window
+www.magazineluiza.com.br
+Cor vermelha
+
+Outro estudo mostrou que as pessoas que foram expostas à palavra "forte" antes de fazer uma tarefa eram mais propensas a realizar a tarefa com mais força.
+Palavra forteOpens in a new window
+www.dicio.com.br
+Palavra forte
+
+Um terceiro estudo mostrou que as pessoas que foram expostas à imagem de um rosto sorridente antes de fazer uma tarefa eram mais propensas a serem simpáticas com outras pessoas.
+Rosto sorridenteOpens in a new window
+emojiterra.com
+Rosto sorridente
+
+Um quarto estudo mostrou que as pessoas que foram expostas à palavra "feliz" antes de fazer uma tarefa eram mais propensas a se lembrar de eventos felizes de suas vidas.
+Palavra felizOpens in a new window
+www.loucasporcaixas.com.br
+Palavra feliz
+
+Esses exemplos mostram que o priming pode ter um impacto significativo no comportamento humano, mesmo quando as pessoas não estão cientes da conexão entre o estímulo primário e o estímulo subsequente.
+
+Aqui estão alguns exemplos de como o priming é usado na prática:
+
+Na publicidade, o priming é usado para influenciar as decisões de compra das pessoas. Por exemplo, uma empresa pode exibir imagens de pessoas felizes em suas propagandas para fazer com que os consumidores se sintam mais felizes e propensos a comprar seus produtos.
+Imagem de pessoas felizesOpens in a new window
+www.agendor.com.br
+Imagem de pessoas felizes
+
+Na educação, o priming é usado para melhorar o aprendizado. Por exemplo, um professor pode apresentar aos alunos uma palavra ou frase relacionada ao tópico que está sendo estudado para ajudá-los a lembrar do material.
+
+Na pesquisa científica, o priming é usado para estudar os processos cognitivos. Por exemplo, os pesquisadores podem usar o priming para investigar como as pessoas processam informações e tomam decisões.
 
 ## Priming Backend
 Este é um projeto que usa Java, Spring Boot, Neo4j, RDF e JSON para criar uma API RESTful que permite o armazenamento e a consulta de dados semânticos. O objetivo é facilitar a integração de diferentes fontes de dados e a extração de conhecimento relevante.
