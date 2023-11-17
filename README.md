@@ -54,9 +54,8 @@ Na educação, o priming é usado para melhorar o aprendizado. Por exemplo, um p
 Na pesquisa científica, o priming é usado para estudar os processos cognitivos. Por exemplo, os pesquisadores podem usar o priming para investigar como as pessoas processam informações e tomam decisões.
 
 A técnica de associação: Associe a palavra que você está tentando aprender a algo que você já conhece. Por exemplo, se você está tentando aprender a palavra "casa" em inglês, você pode associá-la a uma casa que você conhece.
-CasaOpens in a new window
-it.freepik.com
 Casa
+
 A técnica de imagem mental: Crie uma imagem mental da palavra que você está tentando aprender. Por exemplo, se você está tentando aprender a palavra "cachorro" em português, você pode imaginar um cachorro.
 Cachorro
 
@@ -95,7 +94,7 @@ Todas essas técnicas podem ser usadas juntas ou separadamente para ajudar a apr
 ## Priming Backend
 Este é um projeto que usa Java, Spring Boot, Neo4j, RDF e JSON para criar uma API RESTful que permite o armazenamento e a consulta de dados semânticos. O objetivo é facilitar a integração de diferentes fontes de dados e a extração de conhecimento relevante.
 
-Este projeto também faz parte de um curso de inglês que eu estou fazendo, onde eu uso técnicas de aprendizagem acelerada como pomodoro, palácio de memória e priming para melhorar o meu vocabulário e a minha pronúncia.
+Este projeto também faz parte de um curso de inglês que eu estou fazendo, onde eu uso técnicas de aprendizagem acelerada como pomodoro, palácio de memória e priming.....
 
 ![Pomodoro.png](img%2Fpomo.png)
 
