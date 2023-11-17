@@ -29,7 +29,7 @@ Cor vermelha.
 Outro estudo mostrou que as pessoas que foram expostas à palavra "forte" antes de fazer uma tarefa eram mais propensas a realizar a tarefa com mais força.
 Palavra forte
 
-![forte.png](img%forte.png)
+![forte.png](img%2Fforte.png)
 
 Um terceiro estudo mostrou que as pessoas que foram expostas à imagem de um rosto sorridente antes de fazer uma tarefa eram mais propensas a serem simpáticas com outras pessoas.
 Rosto sorridente
