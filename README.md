@@ -54,6 +54,48 @@ Na educação, o priming é usado para melhorar o aprendizado. Por exemplo, um p
 
 Na pesquisa científica, o priming é usado para estudar os processos cognitivos. Por exemplo, os pesquisadores podem usar o priming para investigar como as pessoas processam informações e tomam decisões.
 
+A técnica de associação: Associe a palavra que você está tentando aprender a algo que você já conhece. Por exemplo, se você está tentando aprender a palavra "casa" em inglês, você pode associá-la a uma casa que você conhece.
+CasaOpens in a new window
+it.freepik.com
+Casa
+A técnica de imagem mental: Crie uma imagem mental da palavra que você está tentando aprender. Por exemplo, se você está tentando aprender a palavra "cachorro" em português, você pode imaginar um cachorro.
+CachorroOpens in a new window
+www.petz.com.br
+Cachorro
+A técnica de associação fonética: Associe a palavra que você está tentando aprender a uma palavra que soa semelhante em seu idioma nativo. Por exemplo, se você está tentando aprender a palavra "carro" em espanhol, você pode associar a palavra a "carro" em português.
+CarroOpens in a new window
+www.automaxfiat.com.br
+Carro
+A técnica de contexto: Tente aprender a palavra em um contexto. Por exemplo, se você está tentando aprender a palavra "beber" em espanhol, você pode aprender a palavra na frase "Quiero beber agua" (Eu quero beber água).
+Frase Quiero beber aguaOpens in a new window
+www.fundacionaquae.org
+Frase Quiero beber agua
+A técnica de repetição: Repetir a palavra que você está tentando aprender regularmente ajudará você a memorizá-la. Você pode repetir a palavra em voz alta, escrevê-la ou usá-la em frases.
+
+Aqui está uma explicação mais detalhada de como cada técnica funciona:
+
+Técnica de associação:
+
+Quando você associa uma palavra a algo que você já conhece, você está criando uma conexão entre as duas palavras em sua mente. Essa conexão pode ser baseada em semelhanças visuais, sonoras ou conceituais. Por exemplo, se você está tentando aprender a palavra "casa" em inglês, você pode associá-la a uma casa que você conhece. Ou, se você está tentando aprender a palavra "gato" em espanhol, você pode associá-la a um gato que você conhece.
+
+Técnica de imagem mental:
+
+Quando você cria uma imagem mental de uma palavra, você está criando uma representação visual da palavra. Essa imagem pode ajudar a tornar a palavra mais concreta e memorável. Por exemplo, se você está tentando aprender a palavra "árvore" em português, você pode imaginar uma árvore com folhas verdes e tronco marrom.
+
+Técnica de associação fonética:
+
+Quando você associa uma palavra a uma palavra que soa semelhante em seu idioma nativo, você está criando uma conexão entre os dois sons. Essa conexão pode ajudar a tornar a palavra nova mais familiar e fácil de pronunciar. Por exemplo, se você está tentando aprender a palavra "carro" em espanhol, você pode associá-la à palavra "carro" em português.
+
+Técnica de contexto:
+
+Quando você aprende uma palavra em um contexto, você está associando a palavra a outras palavras e conceitos. Essa associação pode ajudar a tornar a palavra mais significativa e fácil de lembrar. Por exemplo, se você está tentando aprender a palavra "beber" em espanhol, você pode aprender a palavra na frase "Quiero beber agua" (Eu quero beber água).
+
+Técnica de repetição:
+
+Quando você repete uma palavra regularmente, você está reforçando a conexão entre a palavra e seu significado. Essa repetição pode ajudar a tornar a palavra mais familiar e fácil de lembrar. Por exemplo, você pode repetir a palavra "casa" em voz alta, escrevê-la ou usá-la em frases.
+
+Todas essas técnicas podem ser usadas juntas ou separadamente para ajudar a aprender palavras em outro idioma mais rapidamente.
+
 ## Priming Backend
 Este é um projeto que usa Java, Spring Boot, Neo4j, RDF e JSON para criar uma API RESTful que permite o armazenamento e a consulta de dados semânticos. O objetivo é facilitar a integração de diferentes fontes de dados e a extração de conhecimento relevante.
 
