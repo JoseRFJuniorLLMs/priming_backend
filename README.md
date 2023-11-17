@@ -2,6 +2,26 @@
 https://www.linkedin.com/pulse/priming-jose-r-f-junior/?originalSubdomain=pt
 ![v0.png](img%2Fv0.png)
 
+O priming é um efeito psicológico pelo qual a exposição a um determinado estímulo influencia na resposta a um estímulo subsequente, sem que haja qualquer consciência da conexão entre eles. Esses estímulos costumam estar relacionados a coisas corriqueiras, como imagens ou palavras que as pessoas veem no dia a dia com frequência.
+
+O priming pode ser dividido em dois tipos principais:
+
+Priming semântico: ocorre quando a exposição a uma palavra ou frase influencia a interpretação de outra palavra ou frase. Por exemplo, se uma pessoa é exposta à palavra "feliz", ela é mais propensa a interpretar uma frase como "O dia está lindo" como sendo positiva.
+Priming perceptivo: ocorre quando a exposição a uma imagem ou som influencia a percepção de outra imagem ou som. Por exemplo, se uma pessoa é exposta a uma imagem de um rosto feliz, ela é mais propensa a interpretar outro rosto como sendo feliz, mesmo que o outro rosto não esteja sorrindo.
+O priming pode ser usado de várias maneiras, incluindo:
+
+Na publicidade: para influenciar as decisões de compra das pessoas. Por exemplo, uma empresa pode exibir imagens de pessoas felizes em suas propagandas para fazer com que os consumidores se sintam mais felizes e propensos a comprar seus produtos.
+Na educação: para melhorar o aprendizado. Por exemplo, um professor pode apresentar aos alunos uma palavra ou frase relacionada ao tópico que está sendo estudado para ajudá-los a lembrar do material.
+Na pesquisa científica: para estudar os processos cognitivos. Por exemplo, os pesquisadores podem usar o priming para investigar como as pessoas processam informações e tomam decisões.
+O priming é um fenômeno poderoso que pode ter um impacto significativo no comportamento humano. É importante estar ciente do priming para que possamos evitar ser influenciados por ele de forma inconsciente.
+
+Aqui estão alguns exemplos de priming:
+
+Um estudo mostrou que as pessoas que foram expostas à palavra "velho" antes de fazer uma tarefa de memória eram mais propensas a cometer erros.
+Outro estudo mostrou que as pessoas que foram expostas a um rosto feliz antes de fazer uma tarefa de criatividade eram mais propensas a gerar ideias originais.
+Um terceiro estudo mostrou que as pessoas que foram expostas a um som de dinheiro antes de fazer uma tarefa de negociação eram mais propensas a fazer ofertas mais competitivas.
+
+
 ## Priming Backend
 Este é um projeto que usa Java, Spring Boot, Neo4j, RDF e JSON para criar uma API RESTful que permite o armazenamento e a consulta de dados semânticos. O objetivo é facilitar a integração de diferentes fontes de dados e a extração de conhecimento relevante.
 
