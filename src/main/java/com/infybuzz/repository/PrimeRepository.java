@@ -36,8 +36,13 @@ public interface PrimeRepository extends Neo4jRepository<Prime, Long> {
             "WHERE n.Prime = $prime " +
             "WITH n, COALESCE(n.Prime, 'defaultPrime') AS Prime, COALESCE(n.Target, 'defaultTarget') AS Target " +
             "RETURN n AS id, Prime AS prime, Target AS target")
-    List<Prime> findByPrimeCypherListPrime(@Param("prime") String prime);
+    List<Prime> findByPrimeCypherListPrimeOne(@Param("prime") String prime);
 
 
+    @Query("MATCH (n:priming) " +
+            "WHERE n.Target = $target " +
+            "WITH n, COALESCE(n.Target, 'defaultTarget') AS Target, COALESCE(n.Prime, 'defaultPrime') AS Prime " +
+            "RETURN n AS id, Prime AS prime, Target AS target")
+    List<Prime> findByTargetListOne(@Param("target") String prime);
 }
 

@@ -15,7 +15,15 @@ public class PrimeService {
     PrimeRepository primeRepository;
 
     public List<Prime> getPrime(String prime) {
-        return primeRepository.findByPrimeCypherListPrime(prime);
+        return primeRepository.findByPrimeCypherList(prime);
+    }
+
+    public List<Prime> getPrimeOne(String prime) {
+        return primeRepository.findByPrimeCypherListPrimeOne(prime);
+    }
+
+    public List<Prime> getTargetOne(String target) {
+        return primeRepository.findByTargetListOne(target);
     }
 
 }
