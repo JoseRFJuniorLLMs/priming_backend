@@ -5,17 +5,17 @@ import org.springframework.data.neo4j.core.schema.GeneratedValue;
 import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Property;
-
-@Node("textstudant")
+import org.w3c.dom.Text;
+@Node("wordstudant")
 @EntityScan("com.infybuzz.entity")
-public class TextStudant {
+public class WordStudent {
+
     @Id
     @GeneratedValue
     private Long id;
     @Property
     private Long pk_student;
     @Property
-    private Long pk_wordstudent;
-    @Property
-    private Long pk_textstudent;
+    private Text word;
+
 }
