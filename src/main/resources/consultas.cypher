@@ -90,9 +90,9 @@ CREATE (d2:Department {name: 'Mathematics'})
 CREATE (d3:Department {name: 'Physics'})
 
 // Criar alguns estudantes e relacioná-los com departamentos
-CREATE (s1:Student {name: 'John Doe', birthYear: 1995, country: 'USA'})
-CREATE (s2:Student {name: 'Jane Smith', birthYear: 1998, country: 'Canada'})
-CREATE (s3:Student {name: 'Bob Johnson', birthYear: 1997, country: 'UK'})
+CREATE (s1:User {name: 'John Doe', birthYear: 1995, country: 'USA'})
+CREATE (s2:User {name: 'Jane Smith', birthYear: 1998, country: 'Canada'})
+CREATE (s3:User {name: 'Bob Johnson', birthYear: 1997, country: 'UK'})
 
 CREATE (s1)-[:BELONGS_TO]->(d1)
 CREATE (s2)-[:BELONGS_TO]->(d2)
@@ -108,23 +108,18 @@ CREATE (s2)-[:IS_LEARNING]->(l4:IsLearningRelation {subject: 'Statistics'})
 CREATE (s3)-[:IS_LEARNING]->(l5:IsLearningRelation {subject: 'Quantum Mechanics'})
 CREATE (s3)-[:IS_LEARNING]->(l6:IsLearningRelation {subject: 'Thermodynamics'})
 
-MATCH (student:Student)-[:BELONGS_TO]->(department:Department)
-OPTIONAL MATCH (student)-[:IS_LEARNING]->(learningRelation:IsLearningRelation)
-RETURN student, department, COLLECT(learningRelation) AS learningRelations;
+MATCH (User:User)-[:BELONGS_TO]->(department:Department)
+OPTIONAL MATCH (User)-[:IS_LEARNING]->(learningRelation:IsLearningRelation)
+RETURN User, department, COLLECT(learningRelation) AS learningRelations;
 
-Time taken
-00:00:22
-File size
-13.1 MiB
-File rows
-639,976
-Nodes created
-3,348
-Properties set
-1,282,216
-Labels added
-3,348
-Query count
-14
-Query time
-00:00:20S
+
+CREATE (:User {pk_User: 1, cpf: '12345678901', email: 'User1@example.com', name: 'John Doe 1', password: 'password123', phone: '123-456-7891'})
+CREATE (:User {pk_User: 2, cpf: '23456789012', email: 'User2@example.com', name: 'John Doe 2', password: 'password456', phone: '123-456-7892'})
+CREATE (:User {pk_User: 3, cpf: '34567890123', email: 'User3@example.com', name: 'John Doe 3', password: 'password789', phone: '123-456-7893'})
+CREATE (:User {pk_User: 4, cpf: '45678901234', email: 'User4@example.com', name: 'John Doe 4', password: 'passwordabc', phone: '123-456-7894'})
+CREATE (:User {pk_User: 5, cpf: '56789012345', email: 'User5@example.com', name: 'John Doe 5', password: 'passworddef', phone: '123-456-7895'})
+CREATE (:User {pk_User: 6, cpf: '67890123456', email: 'User6@example.com', name: 'John Doe 6', password: 'passwordghi', phone: '123-456-7896'})
+CREATE (:User {pk_User: 7, cpf: '78901234567', email: 'User7@example.com', name: 'John Doe 7', password: 'passwordjkl', phone: '123-456-7897'})
+CREATE (:User {pk_User: 8, cpf: '89012345678', email: 'User8@example.com', name: 'John Doe 8', password: 'passwordmno', phone: '123-456-7898'})
+CREATE (:User {pk_User: 9, cpf: '90123456789', email: 'User9@example.com', name: 'John Doe 9', password: 'passwordpqr', phone: '123-456-7899'})
+CREATE (:User {pk_User: 10, cpf: '01234567890', email: 'User10@example.com', name: 'John Doe 10', password: 'passwordstu', phone: '123-456-7800'})

@@ -20,7 +20,7 @@ import com.infybuzz.request.UpdateStudentRequest;
 import com.infybuzz.service.StudentService;
 
 @RestController
-@RequestMapping("/api/student/")
+@RequestMapping("/api/student")
 public class StudentController {
 	
 	@Autowired
