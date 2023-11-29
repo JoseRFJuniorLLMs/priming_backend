@@ -1,6 +1,5 @@
 package com.infybuzz.service;
 
-import com.infybuzz.DTO.PrimeDTO;
 import com.infybuzz.entity.Prime;
 import com.infybuzz.repository.PrimeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
