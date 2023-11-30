@@ -17,7 +17,7 @@ public class Gpt4Client {
 
     private final OkHttpClient httpClient = new OkHttpClient();
     private final Gson gson = new Gson();
-    private final String apiKey = "SEU_TOKEN_AQUI";
+    private final String apiKey = "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";
 
     public String callGpt4(List<Prime> primes) throws IOException {
         String jsonBody = gson.toJson(Map.of(
