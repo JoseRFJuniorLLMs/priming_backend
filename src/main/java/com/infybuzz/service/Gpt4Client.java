@@ -32,7 +32,7 @@ public class Gpt4Client {
                 .post(body)
                 .build();
 
-        try (Response response = httpClient.newCall(request).execute()) {
+        try (Response response = hfirst committtpClient.newCall(request).execute()) {
             if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
 
             String responseBody = response.body().string();
