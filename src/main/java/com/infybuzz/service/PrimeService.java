@@ -14,7 +14,8 @@ public class PrimeService {
     PrimeRepository primeRepository;
 
     public List<Prime> getPrime(String prime) {
-        return primeRepository.findByPrimeCypherList(prime);
+       // return primeRepository.findByPrimeCypherList(prime);
+        return primeRepository.findByPrimeCypherListPrimeOne(prime);
     }
 
     public List<Prime> getPrimeOne(String prime) {
