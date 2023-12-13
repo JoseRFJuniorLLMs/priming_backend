@@ -1,5 +1,6 @@
 package com.infybuzz.controller;
 
+import com.infybuzz.DTO.UserDTO;
 import com.infybuzz.entity.User;
 import com.infybuzz.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +17,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @GetMapping("/getUserLogin/{name}/{password}")
-    public List<User> getStudentByNameAndPassword(@PathVariable String name,
-                                                   @PathVariable String password) {
-        return userService.getStudentByNameAndPassword(name, password);
+    @GetMapping("/{id}")
+    public UserDTO getUserById(@PathVariable Integer id) {
+        return userService.getUserById(id);
     }
 
 
