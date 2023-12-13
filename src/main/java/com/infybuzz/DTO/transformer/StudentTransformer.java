@@ -1,4 +1,4 @@
-package com.infybuzz.transformer;
+package com.infybuzz.DTO.transformer;
 
 import com.infybuzz.entity.Student;
 import com.infybuzz.DTO.StudentDTO;

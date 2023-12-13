@@ -1,4 +1,4 @@
-package com.infybuzz.transformer;
+package com.infybuzz.DTO.transformer;
 
 import com.infybuzz.entity.User;
 import com.infybuzz.DTO.UserDTO;

@@ -3,11 +3,9 @@ package com.infybuzz.service;
 import com.infybuzz.DTO.UserDTO;
 import com.infybuzz.entity.User;
 import com.infybuzz.repository.UserRepository;
-import com.infybuzz.transformer.UserTransformer;
+import com.infybuzz.DTO.transformer.UserTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 
 @Service

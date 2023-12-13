@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.infybuzz.DTO.StudentDTO;
-import com.infybuzz.transformer.StudentTransformer;
+import com.infybuzz.DTO.transformer.StudentTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
