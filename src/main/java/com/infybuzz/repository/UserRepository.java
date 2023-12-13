@@ -15,4 +15,12 @@ public interface UserRepository extends Neo4jRepository<User, Long> {
             + "us.password = $password return us")
     List<User> getByNameAndPassword(String name,
                                         @Param("password") String password);
+
+    @Query("create (us:User {name: $name, password: $password, email: $email, phone: $phone, cpf: $cpf}) return us")
+    User createUser(@Param("name") String name,
+                    @Param("password") String password,
+                    @Param("email") String email,
+                    @Param("phone") String phone,
+                    @Param("cpf") String cpf);
+
 }
