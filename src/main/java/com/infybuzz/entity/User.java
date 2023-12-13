@@ -1,14 +1,9 @@
 package com.infybuzz.entity;
 
-import java.util.List;
-
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.neo4j.core.schema.GeneratedValue;
 import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
-import org.springframework.data.neo4j.core.schema.Property;
-import org.springframework.data.neo4j.core.schema.Relationship;
-import org.springframework.data.neo4j.core.schema.Relationship.Direction;
 
 @Node(labels = {"User"})
 @EntityScan("com.infybuzz.entity")
@@ -41,10 +36,6 @@ public class User {
 
     public Long getId() {
         return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getCpf() {
