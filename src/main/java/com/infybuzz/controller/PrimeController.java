@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Controller
-@RequestMapping("/api/getprime")
+@RequestMapping("/api/getPrime")
 public class PrimeController {
 
     @Autowired
@@ -24,27 +24,27 @@ public class PrimeController {
     @Autowired
     private Gpt4Client gpt4Client;
 
-    @GetMapping("/getPrimeByPrimeList/{prime}")
-    public ResponseEntity<List<Prime>> buscarPorPrime(@PathVariable String prime) {
-        List<Prime> resultado = primeService.getPrime(prime);
-        return ResponseEntity.ok(resultado);
-    }
-
-    @GetMapping("/getPrimeByPrimeOne/{prime}")
-    public ResponseEntity<String> buscarPorPrimeOne(@PathVariable String prime) {
-        List<Prime> resultado = primeService.getPrime(prime);
+    @GetMapping("/{prime}")
+    public ResponseEntity<String> findByOnePrime(@PathVariable String prime) {
+        List<Prime> result = primeService.getPrimeList(prime);
         try {
-            String response = gpt4Client.callGpt4(resultado);
+            String response = gpt4Client.callGpt4(result);
             return ResponseEntity.ok(response);
         } catch (IOException e) {
             e.printStackTrace();
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro ao chamar a API do GPT-4");
+            return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS).body("Erro ao chamar o GPT-3");
         }
     }
 
-    @GetMapping("/getTargetByOne/{target}")
-    public ResponseEntity<List<Prime>> buscarPorTargetOne(@PathVariable String target) {
-        List<Prime> resultado = primeService.getPrime(target);
-        return ResponseEntity.ok(resultado);
+    @GetMapping("/list/{prime}")
+    public ResponseEntity<List<Prime>> findByPrimeList(@PathVariable String prime) {
+        List<Prime> result = primeService.getPrimeList(prime);
+        return ResponseEntity.ok(result);
+    }
+
+    @GetMapping("/getTargetList/{target}")
+    public ResponseEntity<List<Prime>> findByTarget(@PathVariable String target) {
+        List<Prime> result = primeService.getTargetList(target);
+        return ResponseEntity.ok(result);
     }
 }

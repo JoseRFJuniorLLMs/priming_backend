@@ -13,9 +13,12 @@ public class PrimeService {
     @Autowired
     PrimeRepository primeRepository;
 
-    public List<Prime> getPrime(String prime) {
-       // return primeRepository.findByPrimeCypherList(prime);
-        return primeRepository.findByPrimeCypherListPrimeOne(prime);
+    public List<Prime> getPrimeList(String prime) {
+        return primeRepository.findtoPrimeList(prime);
+    }
+
+    public List<Prime> getTargetList(String target) {
+        return primeRepository.findtoTargetList(target);
     }
 
     public List<Prime> getPrimeOne(String prime) {
@@ -23,7 +26,7 @@ public class PrimeService {
     }
 
     public List<Prime> getTargetOne(String target) {
-        return primeRepository.findByTargetListOne(target);
+        return primeRepository.findtoTargetList(target);
     }
 
 }

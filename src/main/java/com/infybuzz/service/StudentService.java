@@ -3,6 +3,8 @@ package com.infybuzz.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.infybuzz.DTO.StudentDTO;
+import com.infybuzz.DTO.transformer.StudentTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -33,6 +35,8 @@ public class StudentService {
 
 	@Autowired
 	DepartmentRepository departmentRepository;
+
+	private final StudentTransformer studentTransformer = new StudentTransformer();
 
 	public Student createStudent(CreateStudentRequest createStudentRequest) {
 		
@@ -75,8 +79,9 @@ public class StudentService {
 		return student;
 	}
 	
-	public Student getStudentById(long id) {
-		return studentRepository.findById(id).get();
+	public StudentDTO getStudentById(long id) {
+		Student student = studentRepository.findById(id).get();
+		return studentTransformer.toDto(student);
 	}
 	
 	public List<Student> getStudentsByName(String name) {
