@@ -1,7 +1,6 @@
 package com.infybuzz.controller;
 
 import com.infybuzz.entity.Prime;
-import com.infybuzz.service.Gpt4Client;
 import com.infybuzz.service.PrimeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
