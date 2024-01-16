@@ -1,12 +1,12 @@
 package com.infybuzz.app;
 
-import com.infybuzz.entity.Department;
-import com.infybuzz.entity.IsLearningRelation;
-import com.infybuzz.entity.Student;
-import com.infybuzz.entity.Subject;
-import com.infybuzz.repository.DepartmentRepository;
-import com.infybuzz.repository.StudentRepository;
-import com.infybuzz.repository.SubjectRepository;
+import com.infybuzz.Entity.Department;
+import com.infybuzz.Entity.IsLearningRelation;
+import com.infybuzz.Entity.Student;
+import com.infybuzz.Entity.Subject;
+import com.infybuzz.Repository.DepartmentRepository;
+import com.infybuzz.Repository.StudentRepository;
+import com.infybuzz.Repository.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
