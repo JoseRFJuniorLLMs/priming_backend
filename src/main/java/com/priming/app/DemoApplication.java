@@ -2,13 +2,11 @@ package com.priming.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @ComponentScan({"com.priming.controller", "com.priming.service"})
-@EntityScan("com.priming.entity")
-@EnableNeo4jRepositories("com.priming.repository")
+@EnableMongoRepositories("com.priming.repository")
 @SpringBootApplication
 public class DemoApplication {
 

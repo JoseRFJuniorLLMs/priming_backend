@@ -1,11 +1,13 @@
 package com.priming.entity;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Objects;
 
 @Document(collection = "primeTargetTextCollection")
 public class PrimeTargetTextCollection {
+    @Id
     private String _id; // MongoDB doesn't use Long for IDs
     private String prime;
     private String target;

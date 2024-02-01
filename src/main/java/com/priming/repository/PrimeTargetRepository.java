@@ -7,9 +7,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface PrimeTargetRepository extends MongoRepository <PrimeTargetCollection, String>{
+public interface PrimeTargetRepository extends MongoRepository<PrimeTargetCollection, String> {
 
-    List<PrimeTargetCollection> findByPrimeAndTarget(String prime, String target);
+       List<PrimeTargetCollection> findByPrimeAndTarget(String prime, String target);
+       List<PrimeTargetCollection> findByTarget(String target);
+    }
 
-    List<PrimeTargetCollection> findByTarget(String target);
-}

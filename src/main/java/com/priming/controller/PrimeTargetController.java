@@ -15,10 +15,10 @@ public class PrimeTargetController {
     private PrimeTargetService primeTargetService;
 
     @GetMapping("/find")
-    public List<PrimeTargetCollection> findByPrimeAndTarget(
+    public List<PrimeTargetCollection> findByPrimeTarget(
             @RequestParam(name = "prime") String prime,
             @RequestParam(name = "target") String target) {
-        return primeTargetService.findByPrimeAndTarget(prime, target);
+        return primeTargetService.findByTarget(target);
     }
 
     @GetMapping("/find-by-target")

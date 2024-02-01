@@ -15,10 +15,10 @@ public class PrimeTargetTextService {
     private PrimeTargetTextRepository primeTargetTextRepository;
 
     public List<PrimeTargetTextCollection> findByPrimeTargetText(String prime, String target) {
-        return primeTargetTextRepository.findByPrimeTargetText(prime, target);
+        return primeTargetTextRepository.findByPrimeAndTargetText(prime, target);
     }
 
     public List<PrimeTargetTextCollection> findByTarget(String target) {
-        return primeTargetTextRepository.findByTarget(target);
+        return primeTargetTextRepository.findByTargetText(target);
     }
 }

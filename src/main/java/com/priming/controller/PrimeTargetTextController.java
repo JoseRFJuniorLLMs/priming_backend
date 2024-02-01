@@ -1,8 +1,6 @@
 package com.priming.controller;
 
-import com.priming.entity.PrimeTargetCollection;
 import com.priming.entity.PrimeTargetTextCollection;
-import com.priming.service.PrimeTargetService;
 import com.priming.service.PrimeTargetTextService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +18,7 @@ public class PrimeTargetTextController {
     private PrimeTargetTextService primeTargetTextService;
 
     @GetMapping("/find")
-    public List<PrimeTargetTextCollection> findByPrimeAndTarget(
+    public List<PrimeTargetTextCollection> findByPrimeTarget(
             @RequestParam(name = "prime") String prime,
             @RequestParam(name = "target") String target) {
         return primeTargetTextService.findByPrimeTargetText(prime, target);
