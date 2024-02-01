@@ -8,6 +8,6 @@ import java.util.List;
 
 @Repository
 public interface PrimeTargetTextRepository extends MongoRepository<PrimeTargetTextCollection, String> {
-    List<PrimeTargetTextCollection> findByPrimeAndTargetText(String prime, String targetText);
-    List<PrimeTargetTextCollection> findByTargetText(String target);
+    List<PrimeTargetTextCollection> findByPrimeAndText(String prime, String text);
+    List<PrimeTargetTextCollection> findByTarget(String target);
 }
