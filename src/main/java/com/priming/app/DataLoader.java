@@ -4,9 +4,6 @@ import com.priming.entity.Department;
 import com.priming.entity.IsLearningRelation;
 import com.priming.entity.Student;
 import com.priming.entity.Subject;
-import com.priming.repository.DepartmentRepository;
-import com.priming.repository.StudentRepository;
-import com.priming.repository.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
