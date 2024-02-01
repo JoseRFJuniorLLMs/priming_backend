@@ -14,8 +14,8 @@ public class PrimeTargetTextService {
     @Autowired
     private PrimeTargetTextRepository primeTargetTextRepository;
 
-    public List<PrimeTargetTextCollection> findByPrimeAndTarget(String prime, String target) {
-        return primeTargetTextRepository.findByPrimeAndTargetText(prime, target);
+    public List<PrimeTargetTextCollection> findByPrimeTargetText(String prime, String target) {
+        return primeTargetTextRepository.findByPrimeTargetText(prime, target);
     }
 
     public List<PrimeTargetTextCollection> findByTarget(String target) {
