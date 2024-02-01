@@ -6,22 +6,22 @@ import java.util.Objects;
 
 @Document(collection = "primeColection")
 public class PrimeTargetCollection {
-    private String id; // MongoDB doesn't use Long for IDs
+    private String _id; // MongoDB doesn't use Long for IDs
     private String prime;
     private String target;
 
-    public PrimeTargetCollection(String id, String prime, String target) {
-        this.id = id;
+    public PrimeTargetCollection(String _id, String prime, String target) {
+        this._id = _id;
         this.prime = prime;
         this.target = target;
     }
 
     public String getId() {
-        return id;
+        return _id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String _id) {
+        this._id = _id;
     }
 
     public String getPrime() {
@@ -45,11 +45,11 @@ public class PrimeTargetCollection {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PrimeTargetCollection that = (PrimeTargetCollection) o;
-        return Objects.equals(id, that.id) && Objects.equals(prime, that.prime) && Objects.equals(target, that.target);
+        return Objects.equals(_id, that._id) && Objects.equals(prime, that.prime) && Objects.equals(target, that.target);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, prime, target);
+        return Objects.hash(_id, prime, target);
     }
 }

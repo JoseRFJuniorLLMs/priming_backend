@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Document(collection = "primeTargetFraseCollection")
 public class PrimeTargetFraseCollection {
-    private String id; // MongoDB doesn't use Long for IDs
+    private String _id; // MongoDB doesn't use Long for IDs
     private String prime;
     private String target;
     private String frase1;
@@ -20,8 +20,8 @@ public class PrimeTargetFraseCollection {
     private String frase19;
     private String frase10;
 
-    public PrimeTargetFraseCollection(String id, String prime, String target, String frase1, String frase2, String frase3, String frase4, String frase5, String frase6, String frase7, String frase8, String frase19, String frase10) {
-        this.id = id;
+    public PrimeTargetFraseCollection(String _id, String prime, String target, String frase1, String frase2, String frase3, String frase4, String frase5, String frase6, String frase7, String frase8, String frase19, String frase10) {
+        this._id = _id;
         this.prime = prime;
         this.target = target;
         this.frase1 = frase1;
@@ -37,11 +37,11 @@ public class PrimeTargetFraseCollection {
     }
 
     public String getId() {
-        return id;
+        return _id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String _id) {
+        this._id = _id;
     }
 
     public String getPrime() {
@@ -145,11 +145,11 @@ public class PrimeTargetFraseCollection {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PrimeTargetFraseCollection that = (PrimeTargetFraseCollection) o;
-        return Objects.equals(id, that.id) && Objects.equals(prime, that.prime) && Objects.equals(target, that.target) && Objects.equals(frase1, that.frase1) && Objects.equals(frase2, that.frase2) && Objects.equals(frase3, that.frase3) && Objects.equals(frase4, that.frase4) && Objects.equals(frase5, that.frase5) && Objects.equals(frase6, that.frase6) && Objects.equals(frase7, that.frase7) && Objects.equals(frase8, that.frase8) && Objects.equals(frase19, that.frase19) && Objects.equals(frase10, that.frase10);
+        return Objects.equals(_id, that._id) && Objects.equals(prime, that.prime) && Objects.equals(target, that.target) && Objects.equals(frase1, that.frase1) && Objects.equals(frase2, that.frase2) && Objects.equals(frase3, that.frase3) && Objects.equals(frase4, that.frase4) && Objects.equals(frase5, that.frase5) && Objects.equals(frase6, that.frase6) && Objects.equals(frase7, that.frase7) && Objects.equals(frase8, that.frase8) && Objects.equals(frase19, that.frase19) && Objects.equals(frase10, that.frase10);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, prime, target, frase1, frase2, frase3, frase4, frase5, frase6, frase7, frase8, frase19, frase10);
+        return Objects.hash(_id, prime, target, frase1, frase2, frase3, frase4, frase5, frase6, frase7, frase8, frase19, frase10);
     }
 }
