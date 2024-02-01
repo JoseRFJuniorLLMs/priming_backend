@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 
-@ComponentScan({"com.infybuzz.controller", "com.infybuzz.service"})
-@EntityScan("com.infybuzz.entity")
-@EnableNeo4jRepositories("com.infybuzz.repository")
+@ComponentScan({"com.priming.controller", "com.priming.service"})
+@EntityScan("com.priming.entity")
+@EnableNeo4jRepositories("com.priming.repository")
 @SpringBootApplication
 public class DemoApplication {
 
